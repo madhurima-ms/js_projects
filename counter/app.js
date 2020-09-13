@@ -4,10 +4,10 @@ const btns=document.querySelectorAll(".btn");
 btns.forEach(function(btn){
     btn.addEventListener("cilck",function(e){
       const styles=e.currentTarget.classList;
-      if(styles.contains("increase")){
-          count++;
-      }else if(styles.contains("decrease")){
-          count --;
+      if(styles.contains("decrease")){
+          count--;
+      }else if(styles.contains("increase")){
+          count ++;
       }else{
           count=0;
       }
@@ -19,5 +19,5 @@ btns.forEach(function(btn){
           value.style.color="#222";
       }
       value.textContent=count;
-    })
-})
+    });
+});
