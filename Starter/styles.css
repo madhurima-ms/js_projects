@@ -169,7 +169,7 @@ main {
   margin-right: auto;
 }
 .container {
-  width: 80vw;
+  width: 50vw;
   max-width: var(--fixed-width);
 }
 .review {
