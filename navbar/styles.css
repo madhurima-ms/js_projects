@@ -234,7 +234,7 @@ nav {
     background: transparent;
   }
   .social-icons {
-    display: grid;
+    display: flex;
   }
   .social-icons a {
     margin: 0 0.5rem;
