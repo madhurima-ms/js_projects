@@ -59,7 +59,12 @@ Global Styles
 ===============
 */
 
-
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: var(--ff-secondary);
   background: var(--clr-grey-10);
