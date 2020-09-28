@@ -214,6 +214,7 @@ Sidebar
 .social-icons {
   justify-self: center;
   display: grid;
+  grid-template-rows: auto 1fr auto;
   padding-bottom: 2rem;
 }
 .social-icons a {
