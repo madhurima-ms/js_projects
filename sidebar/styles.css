@@ -213,7 +213,7 @@ Sidebar
 }
 .social-icons {
   justify-self: center;
-  display: flex;
+  display: grid;
   padding-bottom: 2rem;
 }
 .social-icons a {
