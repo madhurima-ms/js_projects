@@ -184,8 +184,8 @@ Modal
 .hero {
   min-height: 100vh; 
   background: url("./hero.jpeg") center/cover no-repeat;
-  display: flex;
-  place-items: center;
+  display: grid;
+  
 }
 .banner {
   background: var(--clr-white);
