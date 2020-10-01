@@ -231,9 +231,9 @@ Modal
   height: 30vh;
   max-width: var(--fixed-width);
   text-align: center;
-  display: flex;
+  display: grid;
   place-items: center;
-  position: relative;
+  position: absolute;
 }
 .close-btn {
   position: absolute;
