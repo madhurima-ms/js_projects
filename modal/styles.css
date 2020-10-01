@@ -215,7 +215,7 @@ Modal
   background: rgba(112, 196, 74, 0.5);
   display: grid;
   place-items: center;
-  
+  transition: var(--transition);
   visibility: hidden;
   z-index: -10;
 }
@@ -231,7 +231,7 @@ Modal
   height: 30vh;
   max-width: var(--fixed-width);
   text-align: center;
-  display: grid;
+  display: flex;
   place-items: center;
   position: relative;
 }
