@@ -193,8 +193,8 @@ Modal
   border-radius: var(--radius);
   box-shadow: var(--light-shadow);
   text-align: center;
-  width: 90vw;
-  
+
+  max-width: var(--fixed-width);
 }
 .modal-btn {
   margin-top: 2rem;
