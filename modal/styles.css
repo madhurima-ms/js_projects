@@ -189,7 +189,7 @@ Modal
 }
 .banner {
   background: var(--clr-white);
-  padding: 4rem 0;
+ 
   border-radius: var(--radius);
   box-shadow: var(--light-shadow);
   text-align: center;
