@@ -189,12 +189,12 @@ Modal
 }
 .banner {
   background: var(--clr-white);
- 
+  padding: 4rem 0;
   border-radius: var(--radius);
   box-shadow: var(--light-shadow);
   text-align: center;
   width: 90vw;
-  max-width: var(--fixed-width);
+  
 }
 .modal-btn {
   margin-top: 2rem;
