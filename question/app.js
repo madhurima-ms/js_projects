@@ -9,12 +9,12 @@ questions.forEach(function (question) {
     // console.log(question);
 
     questions.forEach(function (item) {
-      if (item === question) {
-        item.classList.toggle("show-text");
+      if (item !== question) {
+        item.classList.remove("show-text");
       }
     });
 
-    question.classList.remove("show-text");
+    question.classList.toggle("show-text");
   });
 });
 
