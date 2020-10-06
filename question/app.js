@@ -11,7 +11,7 @@ console.log(question);
       item.classList.remove("show-text");
     }
   });
-  item.classList.toggle("show-text");
+  question.classList.toggle("show-text");
 });
 
 });
