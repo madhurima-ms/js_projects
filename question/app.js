@@ -5,13 +5,13 @@ questions.forEach(function(question){
   console.log(btn);
 
 btn.addEventListener("click", function() {
-console.log(questions);
+console.log(question);
   questions.forEach(function(item){
     if ( item!== question ){
       item.classList.remove("show-text");
     }
   });
-  question.classList.toggle("show-text");
+  item.classList.toggle("show-text");
 });
 
 });
