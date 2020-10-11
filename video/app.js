@@ -19,17 +19,17 @@
 // });
 
 
-const btn= document.querySelector(".switch-btn");
-const video= document.querySelector(".video-container");
+const btn = document.querySelector(".switch-btn");
+const video = document.querySelector(".video-container");
 
-btn.addEventListener("click",function(){
+btn.addEventListener("click", function() {
   if(!btn.classList.contains("slide")){
     btn.classList.add("slide");
-    video.pause();
+    video.play();
   }
-  else{
+  else {
     btn.classList.remove("slide");
-    Video.play();
+    video.pause();
 
   }
 });
