@@ -221,8 +221,7 @@ h1 {
 
 .switch-btn {
   position: absolute;
-  bottom: 7%;
-  left: 7%;
+ 
   width: 7rem;
   height: 2rem;
   display: flex;
