@@ -252,7 +252,7 @@ h1 {
   transition: var(--transition);
 }
 .slide .switch {
-  right: 50%;
+  left: 50%;
 }
 /* header after */
 header::after {
