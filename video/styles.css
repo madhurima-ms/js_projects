@@ -187,7 +187,7 @@ Video
   right: 0;
   bottom: 0;
   background: var(--clr-white);
-  display: grid;
+  display: flex;
   justify-content: center;
   align-items: center;
   visibility: visible;
@@ -225,7 +225,7 @@ h1 {
   left: 7%;
   width: 7rem;
   height: 2rem;
-  display: grid;
+  display: flex;
   border-radius: var(--radius);
   align-items: center;
   justify-content: space-around;
