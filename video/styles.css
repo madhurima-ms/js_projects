@@ -187,7 +187,7 @@ Video
   right: 0;
   bottom: 0;
   background: var(--clr-white);
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
   visibility: visible;
@@ -252,7 +252,7 @@ h1 {
   transition: var(--transition);
 }
 .slide .switch {
-  left: 50%;
+  right: 50%;
 }
 /* header after */
 header::after {
