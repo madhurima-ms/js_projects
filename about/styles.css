@@ -234,7 +234,7 @@ About
   display: block;
   background: var(--clr-grey-9);
   cursor: pointer;
-  transition: var(--transition);
+ 
   letter-spacing: var(--spacing);
 }
 .tab-btn:hover:not(.active) {
