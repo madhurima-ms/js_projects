@@ -204,7 +204,7 @@ About
 
   .about-center {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2fr 2fr;
     column-gap: 2rem;
   }
 }
