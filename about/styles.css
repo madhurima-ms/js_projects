@@ -161,7 +161,7 @@ p {
 }
 
 .section-center {
- 
+  width: 90vw;
   margin: 0 auto;
   max-width: 1170px;
 }
@@ -204,7 +204,7 @@ About
 
   .about-center {
     display: flex;
-    
+    grid-template-columns: 1fr 1fr;
     column-gap: 2rem;
   }
 }
