@@ -221,9 +221,7 @@ About
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
-.tab-btn:nth-child(1) {
-  border-top-left-radius: var(--radius);
-}
+
 .tab-btn:nth-child(3) {
   border-top-right-radius: var(--radius);
 }
