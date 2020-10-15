@@ -203,8 +203,8 @@ About
   }
 
   .about-center {
-    display: flex;
-    grid-template-columns: 1fr 1fr;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
     column-gap: 2rem;
   }
 }
@@ -234,7 +234,7 @@ About
   display: block;
   background: var(--clr-grey-9);
   cursor: pointer;
- 
+  transition: var(--transition);
   letter-spacing: var(--spacing);
 }
 .tab-btn:hover:not(.active) {
