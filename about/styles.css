@@ -202,11 +202,7 @@ About
     margin-bottom: 0;
   }
 
-  .about-center {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    column-gap: 2rem;
-  }
+ 
 }
 .about {
   background: var(--clr-white);
