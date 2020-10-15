@@ -231,7 +231,7 @@ About
   border: none;
   text-transform: capitalize;
   font-size: 1rem;
-  display: block;
+
   background: var(--clr-grey-9);
   cursor: pointer;
  
