@@ -204,10 +204,11 @@ About
 
   .about-center {
     display: grid;
-    grid-template-columns: 1fr fr;
+    grid-template-columns: 1fr 1fr;
     column-gap: 2rem;
   }
 }
+
 .about {
   background: var(--clr-white);
   border-radius: var(--radius);
