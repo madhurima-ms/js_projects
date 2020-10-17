@@ -222,9 +222,6 @@ About
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.tab-btn:nth-child(3) {
-  border-top-right-radius: var(--radius);
-}
 .tab-btn {
   padding: 1rem 0;
   border: none;
