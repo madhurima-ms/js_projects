@@ -50,6 +50,7 @@ let tempText = text.slice(0, value);
 tempText=tempText.map(function(item){
   return `<p class="result>"${item}</p>`;
 })
+.join("");
 result.innerHTML=tempText;
 console.log(tempText);
 }
