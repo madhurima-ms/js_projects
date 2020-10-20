@@ -48,7 +48,8 @@ result.innerHTML= '<p class="result"> ${text[random]}</p>';
   tempText = tempText
   .map(function(item){
     return `<p class="result">${item}</p>`;
-    //  })
+    
+  })
   .join("");
   result.innerHTML = tempText;
 }
