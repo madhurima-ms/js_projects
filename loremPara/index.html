@@ -1,20 +1,25 @@
-<html>
-<head>
- <title>lepsum</title>   
-<meta name="viewport" content="width=device-width" >
-<link rel="stylesheet" href="styles.css">
-</head>  
-<body>
- <section class="section-center">
- <h3 >TIRED OF BORING LOREM IPSUM?</h3>   
- <form class="lorem-form">
-  <label for="number">Paragraphs:
-  </label>   
-  <input type="text" id="number" placeholder="5">
-  <button type="submit" class="">Generate</button>
- </form>
- <article class="result"></article>
- </section>   
- <script src="app.js"></script>   
-</body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lorem Ipsum</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="section-center">
+      <h3>tired of boring lorem ipsum?</h3>
+      <form class="lorem-form">
+        <label for="amount">paragraphs:</label>
+        <input type="number" name="amount" id="amount" placeholder="5" />
+        <button type="submit" class="btn">generate</button>
+      </form>
+      <article class="lorem-text"></article>
+    </section>
+
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
 </html>
