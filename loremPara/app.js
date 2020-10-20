@@ -47,8 +47,8 @@ result.innerHTML= '<p class="result"> ${text[random]}</p>';
   let tempText = text.slice(0,value);
   tempText = tempText
   .map(function(item){
-    return '<p class="result">${item}</p>';
-  })
+    return `<p class="result">${item}</p>`;
+    //  })
   .join("");
   result.innerHTML = tempText;
 }
