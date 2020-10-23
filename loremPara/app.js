@@ -48,9 +48,10 @@ if(isNaN(value) || value<0 || value > 9){
 } else {
 
 let tempText = text.slice(0, value);
- tempText=tempText
+tempText=tempText
  .map(function(item){
   return `<p class="result">${item}</p>`;
+
 })
 .join("");
 result.innerHTML = tempText;
