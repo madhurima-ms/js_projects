@@ -183,15 +183,16 @@ Slider
 
 .slider-container {
   border: 5px solid var(--clr-primary-5);
-  width: 50vw;
+  width: 80vw;
   margin: 0 auto;
-  height: 50vh;
+  height: 40vh;
   max-width: 80rem;
   position: relative;
   border-radius: 0.5rem;
   overflow: hidden;
   margin-top: 4rem;
 }
+
 .slide {
   position: absolute;
   width: 100%;
