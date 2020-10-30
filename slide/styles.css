@@ -198,7 +198,7 @@ Slider
   height: 100%;
   background: var(--clr-primary-9);
   color: var(--clr-white);
-  display: grid;
+  display: flex;
   place-items: center;
   transition: all 0.25s ;
   text-align: center;
