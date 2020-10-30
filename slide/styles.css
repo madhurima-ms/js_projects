@@ -186,7 +186,7 @@ Slider
   width: 80vw;
   margin: 0 auto;
   height: 40vh;
-  max-width: 80rem;
+  
   position: relative;
   border-radius: 0.5rem;
   overflow: hidden;
@@ -198,9 +198,9 @@ Slider
   height: 100%;
   background: var(--clr-primary-9);
   color: var(--clr-white);
-  display: flex;
+  display: grid;
   place-items: center;
-  transition: all 0.25s ;
+  transition: all 0.25s ease-in-out;
   text-align: center;
 }
 .slide-img {
@@ -249,11 +249,11 @@ Slider
   color: var(--clr-grey-3);
 }
 
-/* @media screen and (min-width: 576px) {
+@media screen and (min-width: 576px) {
   .slider-container {
     height: 45vh;
   }
-} */
+}
 @media screen and (min-width: 768px) {
   .slider-container {
     height: 55vh;
