@@ -63,14 +63,16 @@ function addItem(e) {
     addToLocalStorage(id, value);
     // set back to default
     setBackToDefault();
-  } else if (value !== "" && editFlag) {
+  }
+  else if (value !== "" && editFlag) {
     editElement.innerHTML = value;
     displayAlert("value changed", "success");
 
     // edit  local storage
     editLocalStorage(editID, value);
     setBackToDefault();
-  } else {
+  }
+  else {
     displayAlert("please enter value", "danger");
   }
 }
