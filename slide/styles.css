@@ -200,7 +200,7 @@ Slider
   color: var(--clr-white);
   display: grid;
   place-items: center;
-  transition: all 0.25s ease-in-out;
+  transition: all 0.25s ;
   text-align: center;
 }
 .slide-img {
