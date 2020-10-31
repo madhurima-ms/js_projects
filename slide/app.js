@@ -17,7 +17,7 @@ prevBtn.addEventListener("click", function () {
 });
 
 
-prevBtn.style.display = "none";
+// prevBtn.style.display = "none";
 
 // function carousel() {
 //   // working with slides
