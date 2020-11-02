@@ -106,7 +106,7 @@ h3 {
   font-size: 1.25rem;
 }
 h4 {
-  font-size: 0.875rem;
+  font-size: 1.875rem;
 }
 p {
   margin-bottom: 1.25rem;
@@ -210,7 +210,7 @@ Slider
 }
 .slide h1 {
   font-size: 5rem;
-  color: violet;
+  color: blue;
 }
 .person-img {
   border-radius: 50%;
